@@ -1,0 +1,105 @@
+#mostrador{
+    margin: auto;
+    margin-top: 40px;
+    width: 252px;
+    height: 80px;
+}
+
+.espaco{
+    width:84px;
+    height: 84px;
+    border:2px solid rgb(255, 174, 0);
+    float: left;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.afastabotão{
+    margin: auto;
+    margin-right: 6px;
+    margin-left: 6px;
+    border-radius: 10px;
+    padding: 3px;
+   
+}
+
+.tabuleiro{
+    width: 252px;
+    height: 252px;
+    margin: auto;
+    box-shadow: 2px 5px #888888;
+}
+
+.centro{
+  width: 100%;
+  display: flex;
+ justify-content: center;
+ margin: 10px auto;
+
+}
+
+.button{
+  margin-left: 5px;
+}
+
+.color1{
+    background-color: rgb(66, 165, 20);
+    border-color: rgb(62, 138, 27);
+}
+
+.color2{
+    background-color: rgb(0, 110, 255);
+    border-color:  rgb(21, 120, 250);
+}
+
+.color3{
+    background-color: rgb(255, 60, 0);
+    border-color:  rgb(214, 45, 15);
+}
+
+.titulo{
+    width: 100%;
+    min-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:rgb(255, 174, 0);
+   
+}
+
+.fundo{
+    background-image: url(https://www.asteria.com.br/wp-content/uploads/fundo.jpg);
+    background-repeat: no-repeat;
+}
+
+.texto{
+    color:rgb(255, 174, 0);
+    font-size: 20px;
+   
+}
+
+.tabela{
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 100%;
+    display: flex;  
+}
+
+.tab{
+    border-color: rgb(252, 207, 141);
+    box-shadow: 2px 5px #888888;
+    width: 50%;
+}
+
+.centro2{
+    padding-left: 30px;
+    padding: 5px;
+}
+.border{
+    border:dashed red;
+}
+.afastar_top{
+    margin-top: 30px;
+}
